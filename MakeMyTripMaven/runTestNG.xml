@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Make My Trip Flight Booking" parallel="false">
+	<test name="TC_01_FlightBookingValidation">
+
+		<parameter name="source" value="Kochi"></parameter>
+		<parameter name="destination" value="BLR"></parameter>
+		<parameter name="firstName1" value="Mathew"></parameter>
+		<parameter name="lastname1" value="James"></parameter>
+		<parameter name="firstName2" value="Saira"></parameter>
+		<parameter name="lastname2" value="James"></parameter>
+		<parameter name="phone" value="9654456788"></parameter>
+		<parameter name="email" value="mmsass@test.com"></parameter>
+		<parameter name="cardNo" value="6345432165437689"></parameter>
+		<parameter name="cardName" value="Mathew James"></parameter>
+		<parameter name="cardMonth" value="January"></parameter>
+		<parameter name="cardYear" value="2024"></parameter>
+		<parameter name="cvv" value="234"></parameter>
+		<parameter name="country" value="India"></parameter>
+		<parameter name="state" value="California"></parameter>
+		<parameter name="billingAddress" value="Santa Clarita"></parameter>
+		<parameter name="city" value="Valencia"></parameter>
+		<parameter name="pincode" value="91355"></parameter>
+		<classes>
+			<class
+				name="com.makemytrip.tests.TC_01_FlightBookingValidation">
+
+			</class>
+
+		</classes>
+	</test>
+</suite>
